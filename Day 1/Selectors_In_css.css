@@ -1,0 +1,42 @@
+ /* .para {
+            color: red;
+        }
+
+        #heading {
+            color: green;
+        }
+        p{
+            color: red;
+        }
+        */
+
+
+
+        /* *{
+            background-color: aqua;
+        } */
+
+        /* 1 decendent selector -spacing */
+
+        div p {
+            background-color: yellow;
+        }
+
+
+        /* 2 child selector - > */
+        div>p {
+            background-color: red;
+        }
+
+        /* 3 general sibling selector -~ */
+
+
+        div~p {
+            background-color: pink;
+        }
+
+
+        /* 4 aju sibling selector - + */
+        div+p {
+            background-color: green;
+        }

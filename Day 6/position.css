@@ -23,21 +23,26 @@
     border: 3px solid white;
     height: 450px;
     width: 400px;
-    margin-top: 160px;
-    margin-left: 300px;
+    position: relative;
+    top: 160px;
+    left: 300px;
     background-color: hsla(0, 0%, 0%, 0.6)
 }
 
 .box-1 img {
     height: 150px;
     width: 150px;
-    margin: 30px 120px 0px 120px;
+    position: relative;
+    top: 20px;
+    left: 120px;
     border-radius: 50%;
     border-top: 2px solid white;
     border-bottom: 3px solid white;
 }
 
 .box-1 h1 {
+    position: relative;
+    top: 20px;
     text-align: center;
     color: white;
     font-size: 40px;
@@ -57,8 +62,9 @@
     border-bottom-right-radius: 100px;
     height: 450px;
     width: 400px;
-    margin-top: 160px;
-    margin-left: 100px;
+    position: relative;
+    top: 160px;
+    left: 450px;
     background-color: hsla(0, 0%, 0%, 0.6)
 }
 
